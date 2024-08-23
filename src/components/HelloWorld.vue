@@ -1,9 +1,16 @@
+<!--
+ * @Date: 2024-04-16 16:05:26
+ * @LastEditors: cproud1212 2411807384@qq.com
+ * @LastEditTime: 2024-08-23 17:29:10
+ * @FilePath: \vue3-ts-project\src\components\HelloWorld.vue
+ * @Description: cxx
+-->
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
-defineProps<{ msg: string }>()
+defineProps<{ msg: string }>();
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
@@ -19,9 +26,7 @@ const count = ref(0)
 
   <p>
     Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
+    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the official Vue + Vite starter
   </p>
   <p>
     Install
