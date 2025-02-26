@@ -1,13 +1,14 @@
 <script setup lang="ts">
+import { ElConfigProvider } from 'element-plus'
 </script>
 
 <template>
-  <div>
-    <router-view />
-    <router-view name="About" />
-  </div>
+  <el-config-provider>
+    <router-view></router-view>
+  </el-config-provider>
 </template>
 
 <style >
 @import "@/assets/css/reset.css";
+
 </style>
